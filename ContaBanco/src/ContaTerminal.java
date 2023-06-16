@@ -7,19 +7,19 @@ public class ContaTerminal {
         
         // Solicitando Dados do Cliente
 
-        System.out.println("Por favor digite o número da Agência: ");
+        System.out.print("Por favor digite o número da Agência: ");
         int agencia = scanner.nextInt();
 
-        System.out.println("Por favor digite o número da conta: ");
+        System.out.print("Por favor digite o número da conta: ");
         int numero = scanner.nextInt();
 
-        System.out.println("Por favor digite o seu nome: ");
+        System.out.print("Por favor digite o seu nome: ");
         String nomeCliente = scanner.next();
 
-        System.out.println("Por favor digite o seu sobrenome: ");
+        System.out.print("Por favor digite o seu sobrenome: ");
         String sobrenomeCliente = scanner.next();
 
-        System.out.println("Por favor digite o valor do saldo: ");
+        System.out.print("Por favor digite o valor do saldo: ");
         double saldo = scanner.nextDouble();
 
         // imprimindo saída no terminal
