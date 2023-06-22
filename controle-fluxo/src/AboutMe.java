@@ -17,7 +17,6 @@ public class AboutMe {
         
         System.out.println("Digite sua altura");
         double altura = scanner.nextDouble();
-
         
         //imprimindo os dados obtidos pelo usuario
         System.out.println("Olá, me chamo " + nome.toUpperCase() + " " + sobrenome.toUpperCase());
@@ -25,4 +24,4 @@ public class AboutMe {
         System.out.println("Minha altura é " + altura + "cm ");
         scanner.close();   
     }
-    
+}
